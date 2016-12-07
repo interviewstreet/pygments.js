@@ -22,7 +22,9 @@ pygments.timeout = 10;
 //
 // Default binary path for pygmentize
 //
-pygments.bin = 'pygmentize';
+// pygments.bin = 'pygmentize';
+pygments.bin = __dirname + '/../../pygments/pygmentize';
+
 
 //
 // ### function prepareColorizeParameters
